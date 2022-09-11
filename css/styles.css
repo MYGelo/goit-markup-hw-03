@@ -1,0 +1,261 @@
+:root {
+  --main-color: #212121;
+  --accent-color: #2196f3;
+  --second-color: #757575;
+  --primery-white-color: #ffffff;
+  --button-second-backgund: #f5f4fa;
+  --hero-bg: #2f303a;
+}
+
+body {
+  color: var(--main-color);
+  background-color: var(--primery-white-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+
+/*LOGO*/
+.logo {
+  color: var(--accent-color);
+
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+.logo-header {
+  color: var(--main-color);
+
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+.logo-footer {
+  color: var(--primery-white-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+/*NAVIGATION*/
+.nav-main li {
+  list-style: none;
+}
+.nav-main .link {
+  color: var(--main-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav-main .link:hover,
+.nav-main .link:focus {
+  color: var(--accent-color);
+}
+.nav-main .link.current {
+  color: var(--accent-color);
+}
+
+/* contact`s*/
+
+.nav-contact {
+  color: var(--second-color);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+.nav-contact:hover,
+.nav-contact:focus {
+  color: var(--accent-color);
+}
+
+/* hero*/
+.hero-style h1{
+  color: var(--primery-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-style {
+  background: var(--hero-bg);
+}
+/*Button*/
+.button {
+  cursor: pointer;
+
+  color: var(--main-color);
+  background-color: var(--primery-white-colorwhite);
+
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button.primery {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+.button.primery:hover,
+.button.primery:focus {
+  color: var(--second-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.button.second {
+  background-color: var(--button-second-backgund);
+}
+.button.second:hover,
+.button.second:focus {
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.herobt {
+ font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  
+  color: var(--primery-white-color);
+  background-color: var(--accent-color);
+  border: 2px;
+}
+/* portfolio */
+
+.portfolio-link h2 {
+  color: var(--main-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.portfolio-link {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+}
+.portfolio-link p {
+  color: var(--second-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+  background-color: rosybrown;
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+/* about us */
+.about-us li {
+  list-style: none;
+}
+.about-us h3 {
+  color:var(--main-color)
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.about-us p {
+  color: var(--second-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+
+  letter-spacing: 0.03em;
+}
+
+/* us team*/
+.usteam li {
+  list-style: none;
+}
+.usteam p{
+  color:var(--second-color);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.usteam h2 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-color);
+}
+
+.usteam h3{
+  color: var(--main-color);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+/*footor*/
+.footor {
+  background: #2f303a;
+}
+
+/* address*/
+.address{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+font-weight: 400;
+
+list-style: none;
+}
+.address a:hover,
+.address a:focus {
+  color: var(--accent-color);
+}
+.address-link {
+  color: var(--primery-white-color);
+  text-decoration: none;
+}
+.address-contact {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
