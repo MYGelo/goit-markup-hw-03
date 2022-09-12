@@ -165,6 +165,8 @@ body {
   border-color: var(--accent-color);
 }
 .button.second {
+  border: 0;
+  border-radius: 4px;
   background-color: var(--button-second-backgund);
 }
 .button.second:hover,
@@ -189,6 +191,30 @@ body {
   background-color: var(--accent-color);
 }
 /* portfolio */
+.section-portfolio {
+  text-align: center;
+}
+.nav-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  list-style: none;
+}
+.nav-portfolio .item + .item {
+  margin-left: 30px;
+}
+
+.content-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+}
 
 .portfolio-link h2 {
   color: var(--main-color);

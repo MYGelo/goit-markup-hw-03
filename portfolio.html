@@ -4,61 +4,59 @@
     <meta charset="utf-8" />
     <meta name="Web Studio" content="test" />
     <title>portfolio</title>
-    <!-- <style>
-      li {
-        list-style-type: none; /* Убираем маркеры */
-      }
-      a {
-        text-decoration: none; /* Отменяем подчеркивание у ссылки */
-      }
-    </style>-->
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <!-- normalaize -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span> </a>
+      <div class="container nav">
+        <nav class="nav">
+          <ul class="list">
+            <li>
+      <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span> </a></li>
+      </ul>
       <!-- navigation-->
-      <nav>
-        <ul class="nav-main"
-          <li>
-            <a href="./index.html" class="link ">Студія</a>
+        <ul class="nav-main nav-box">
+          <li class="item">
+            <a href="./index.html" class="link">Студія</a>
           </li>
-          <li>
+          <li class="item">
+            <!--  target="_blank" - new page -->
             <a href="portfolio.html" class="link current">Портфоліо</a>
           </li>
-          <li>
+          <li class="item">
             <a href="" class="link">Контакти</a>
           </li>
         </ul>
-      </nav>
+        </nav>
       <!-- контакти-->
-      <ul class="address">
-        <li><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li>
+      <ul class="address nav-box">
+        <li class="item"><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
+        <li class="item"><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li>
       </ul>
+    
+      </div>
     </header>
-    <main>
+    <main class="conteiner">
       <section class="section-portfolio">
         <h1>блок навигации</h1>
-          <ul class="list">
-          <li><button type="button" class="button second">Усі</li>
-          <li><button type="button" class="button second">Веб-сайти</li>
-          <li><button type="button" class="button second">Додатки</li>
-          <li><button type="button" class="button second">Дизайн</li>
-          <li><button type="button" class="button second">Маркетинг</li>
+          <ul class="nav-portfolio">
+          <li class="item"><button type="button" class="button second">Усі</li>
+          <li class="item"><button type="button" class="button second">Веб-сайти</li>
+          <li class="item"><button type="button" class="button second">Додатки</li>
+          <li class="item"><button type="button" class="button second">Дизайн</li>
+          <li class="item"><button type="button" class="button second">Маркетинг</li>
           </ul>
-        <ul class="list">
+        <ul class="content-portfolio">
           <!--Технокряк -->
           <li class="portfolio-link">
             <img src="./images/portfolio/img-one.jpg" width="370" alt="peolpe" />
@@ -123,13 +121,14 @@
         </ul>
       </section>
     </main>
-    <footer class="footor">
-      <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span> </a>
+    <footer class="footor-page">
+      <div class="conteiner footor">
+        <div class="footor-all">
+          <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span> </a>
       <address>
         <ul class="address">
           <li>
-            <a
-              target="_blank"
+            <a target="_blank"
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
               class="address-link"
             >
@@ -139,7 +138,9 @@
           <li><a href="mailto:info@devstudio.com" class="address-contact">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111" class="address-contact">+38 096 111 11 11</a></li>
         </ul>
+        </div>
       </address>
+      </div>
     </footer>
   </body>
 </html>
