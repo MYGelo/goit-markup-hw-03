@@ -250,7 +250,24 @@ body {
 .section .item + .item {
   margin-left: 30px;
 }
-
+/* What are we doing */
+.wawd {
+  text-align: center;
+  /* margin-left: 215px;
+  margin-right: 215px; */
+}
+.wawd h2 {
+  text-align: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.wawd .items {
+  display: flex;
+}
+.wawd .item + .item {
+  margin-left: 30px;
+}
 /* us team*/
 .usteam li {
   list-style: none;
