@@ -307,10 +307,19 @@ body {
   letter-spacing: 0.03em;
 }
 /*footor*/
-.footor {
+.footor-all {
+  /* display: inline-block; */
+  margin-left: 215px;
+}
+.footor-page {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background: #2f303a;
 }
-
+.footor .logo {
+  margin-left: 40px;
+}
 /* address*/
 .address {
   font-family: Roboto, sans-serif;
