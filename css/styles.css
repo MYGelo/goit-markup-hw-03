@@ -60,13 +60,16 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  margin-left: 215px;
-  margin-right: 215px;
+  /* margin-left: 215px;
+  margin-right: 215px; */
 }
 .nav-box {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 93px;
 }
 .nav-box .item + .item {
   margin-left: 50px;
@@ -322,6 +325,8 @@ body {
 }
 /* address*/
 .address {
+  margin-left: auto;
+
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 14px;
