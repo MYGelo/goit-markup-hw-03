@@ -17,7 +17,13 @@ body {
 .list {
   list-style: none;
 }
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*LOGO*/
 .logo {
   color: var(--accent-color);
@@ -51,6 +57,20 @@ body {
 }
 
 /*NAVIGATION*/
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.nav-box {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.nav-box .item + .item {
+  margin-left: 50px;
+}
 .nav-main li {
   list-style: none;
 }
@@ -91,18 +111,31 @@ body {
 }
 
 /* hero*/
-.hero-style h1{
+.section-hero {
+  display: block;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 350px;
+  padding-right: 350px;
+
+  background: var(--hero-bg);
+}
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--primery-white-color);
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-style {
-  background: var(--hero-bg);
+  /* background: var(--hero-bg); */
 }
 /*Button*/
 .button {
@@ -115,8 +148,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .button.primery {
@@ -141,14 +172,18 @@ body {
 }
 
 .herobt {
- font-weight: 700;
+  display: inline-block;
+
+  border: 0;
+  border-radius: 4px;
+
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  
+
   color: var(--primery-white-color);
   background-color: var(--accent-color);
-  border: 2px;
 }
 /* portfolio */
 
@@ -182,32 +217,46 @@ body {
 }
 
 /* about us */
+.about-us {
+  color: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 .about-us li {
   list-style: none;
 }
-.about-us h3 {
-  color:var(--main-color)
+.about-us .section {
+  display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
+  padding: 0;
+}
+.about-us .title {
+  color: var(--main-color);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
 }
-.about-us p {
+.about-us .text {
   color: var(--second-color);
 
   font-size: 14px;
   line-height: 1.7;
   font-weight: 400;
-
-  letter-spacing: 0.03em;
+  /* letter-spacing: 0.03em; */
+}
+.section .item + .item {
+  margin-left: 30px;
 }
 
 /* us team*/
 .usteam li {
   list-style: none;
 }
-.usteam p{
-  color:var(--second-color);
+.usteam p {
+  color: var(--second-color);
 
   font-size: 16px;
   font-weight: 400;
@@ -215,16 +264,16 @@ body {
   letter-spacing: 0.03em;
 }
 .usteam h2 {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: var(--main-color);
+  color: var(--main-color);
 }
 
-.usteam h3{
+.usteam h3 {
   color: var(--main-color);
 
   font-size: 16px;
@@ -238,14 +287,14 @@ color: var(--main-color);
 }
 
 /* address*/
-.address{
-font-family: Roboto, sans-serif;
-font-style: normal;
-font-size: 14px;
-line-height: 1.7;
-font-weight: 400;
+.address {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
 
-list-style: none;
+  list-style: none;
 }
 .address a:hover,
 .address a:focus {
