@@ -252,6 +252,9 @@ body {
   padding: 0;
   border: 0;
 }
+.about-us h2 {
+  margin: 0;
+}
 .about-us li {
   list-style: none;
 }
@@ -286,19 +289,28 @@ body {
   margin-right: 215px; */
 }
 .wawd h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
+  /* text-align: center;
   border: 0;
   padding: 0;
-  margin: 0;
+  margin: 0; */
 }
 .wawd .items {
+  /* padding: 0;
+  margin: 0; */
   display: flex;
 }
 .wawd .item + .item {
   margin-left: 30px;
 }
 /* us team*/
-.unteam {
+.usteam h2 {
+  padding: 0;
+  margin: 0;
 }
 .usteam .item + .item {
   margin-left: 30px;
