@@ -62,11 +62,15 @@ body {
 }
 
 /*NAVIGATION*/
+/* .nav-page {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+} */
 .nav {
   display: flex;
   align-items: center;
-  /* margin-left: 215px;
-  margin-right: 215px; */
+  /* margin-left: 215px; */
 }
 .nav-box {
   display: flex;
@@ -365,16 +369,19 @@ body {
   letter-spacing: 0.03em;
 }
 /*footor*/
-.footor-all {
-  /* display: inline-block; */
-  margin-left: 215px;
-}
-.footor-page {
-  padding-top: 60px;
-  padding-bottom: 60px;
 
+.footor-page {
   background: #2f303a;
 }
+.footor {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footor-all {
+  /* display: inline-block; */
+  /* margin-left: 215px; */
+}
+
 .footor .logo {
   margin-left: 40px;
 }
