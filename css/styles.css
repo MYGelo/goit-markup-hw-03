@@ -6,7 +6,7 @@
   --button-second-backgund: #f5f4fa;
   --hero-bg: #2f303a;
 }
-
+/* clip: rect(1px, 1px, 1px, 1px); */
 body {
   color: var(--main-color);
   background-color: var(--primery-white-color);
@@ -23,6 +23,11 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.invisible {
+  position: absolute !important;
+  /* clip: rect(1px, 1px, 1px, 1px); */
+  color: transparent;
 }
 /*LOGO*/
 .logo {
@@ -121,8 +126,6 @@ body {
   padding-bottom: 200px;
   padding-left: 350px;
   padding-right: 350px;
-
-  background: var(--hero-bg);
 }
 .hero-title {
   margin-top: 0;
@@ -138,7 +141,7 @@ body {
   text-transform: uppercase;
 }
 .hero-style {
-  /* background: var(--hero-bg); */
+  background: var(--hero-bg);
 }
 /*Button*/
 .button {
@@ -210,8 +213,8 @@ body {
 .content-portfolio {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 
   list-style: none;
 }
@@ -227,10 +230,13 @@ body {
 }
 
 .portfolio-link {
+  margin: 15px;
+
   width: 370px;
   height: 404px;
   background: #ffffff;
 }
+
 .portfolio-link p {
   color: var(--second-color);
   font-size: 16px;
@@ -247,22 +253,20 @@ body {
 
 /* about us */
 .about-us {
-  color: transparent;
-  margin: 0;
-  padding: 0;
-  border: 0;
 }
 .about-us h2 {
-  margin: 0;
+  position: absolute !important;
+  color: transparent;
 }
 .about-us li {
   list-style: none;
 }
 .about-us .section {
   display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
+  justify-content: space-around;
   padding: 0;
+  margin-top: 94px;
+  margin-bottom: 0;
 }
 .about-us .title {
   color: var(--main-color);
@@ -282,6 +286,7 @@ body {
 .section .item + .item {
   margin-left: 30px;
 }
+
 /* What are we doing */
 .wawd {
   text-align: center;
@@ -289,27 +294,32 @@ body {
   margin-right: 215px; */
 }
 .wawd h2 {
+  margin-top: 118px;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  /* text-align: center;
-  border: 0;
-  padding: 0;
-  margin: 0; */
 }
 .wawd .items {
-  /* padding: 0;
-  margin: 0; */
   display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 94px;
+  padding: 0;
 }
 .wawd .item + .item {
   margin-left: 30px;
 }
 /* us team*/
+
+.usteam {
+  background-color: var(--button-second-backgund);
+}
 .usteam h2 {
-  padding: 0;
+  padding: 94px;
   margin: 0;
 }
 .usteam .item + .item {
@@ -317,6 +327,9 @@ body {
 }
 .usteam .link {
   display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-bottom: 94px;
 }
 .usteam li {
   list-style: none;
