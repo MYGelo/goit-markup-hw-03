@@ -134,8 +134,8 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 350px;
-  padding-right: 350px;
+  /* padding-left: 350px;
+  padding-right: 350px; */
 }
 .hero-title {
   margin-top: 0;
@@ -192,6 +192,8 @@ body {
 }
 
 .herobt {
+  cursor: pointer;
+
   display: inline-block;
 
   border: 0;
@@ -214,7 +216,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 50px;
 
   list-style: none;
@@ -265,6 +267,7 @@ body {
 }
 
 .portfolio-link {
+  text-align: left;
   text-decoration: none;
 }
 
@@ -311,8 +314,8 @@ body {
   margin-right: 215px; */
 }
 .wawd h2 {
-  margin-top: 118px;
-  margin-bottom: 50px;
+  /* margin-top: 118px;
+  margin-bottom: 50px; */
 
   font-weight: 700;
   font-size: 36px;
@@ -323,8 +326,9 @@ body {
 .wawd .items {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
-  margin-bottom: 94px;
+  margin: 0;
+  /* margin-top: 50px;
+  margin-bottom: 94px; */
   padding: 0;
 }
 .wawd .item + .item {
@@ -346,6 +350,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+  margin-bottom: 0;
   padding: 0;
   padding-bottom: 94px;
 }
