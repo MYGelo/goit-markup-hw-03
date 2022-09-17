@@ -93,8 +93,11 @@ p {
   align-items: center;
   /* justify-content: space-between; */
 }
-.nav-main {
+
+.header-border {
   border-bottom: 1px solid var(--header-border-color);
+}
+.nav-main {
   display: flex;
   align-items: center;
 }
