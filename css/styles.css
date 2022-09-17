@@ -5,6 +5,7 @@
   --primery-white-color: #ffffff;
   --button-second-backgund: #f5f4fa;
   --hero-bg: #2f303a;
+  --header-border-color: #ececec;
 }
 /* clip: rect(1px, 1px, 1px, 1px); */
 body {
@@ -90,7 +91,9 @@ p {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+
+  border-bottom: 1px solid var(--header-border-color);
 }
 .nav-box {
   display: flex;
@@ -268,7 +271,8 @@ p {
   height: 404px;
   background: #ffffff;
 }
-.content-portfolio .item + .item {
+.content-portfolio .item {
+  width: calc((100% - 30 * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -278,6 +282,11 @@ p {
 
 .content-portfolio .item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+.item .card {
+  box-sizing: content-box;
+  border: 1px solid var(--card-border-color);
+  padding: 20px 24px;
 }
 .portfolio-link p {
   color: var(--second-color);
