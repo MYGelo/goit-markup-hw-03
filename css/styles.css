@@ -86,11 +86,7 @@ p {
 }
 
 /*NAVIGATION*/
-/* .nav-page {
-  display: flex;
-  align-items: center;
-  margin-left: 215px;
-} */
+/* .nav-page { */
 .nav-main {
   display: flex;
   align-items: center;
