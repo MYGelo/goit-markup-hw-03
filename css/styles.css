@@ -6,8 +6,8 @@
   --button-second-backgund: #f5f4fa;
   --hero-bg: #2f303a;
   --header-border-color: #ececec;
+  --card-border-color: #eeeeee;
 }
-/* clip: rect(1px, 1px, 1px, 1px); */
 body {
   color: var(--main-color);
   background-color: var(--primery-white-color);
@@ -23,6 +23,9 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 10px;
+}
+ul {
+  margin: 0;
 }
 p {
   margin: 0;
@@ -43,7 +46,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 .invisible {
   position: absolute !important;
@@ -88,23 +91,26 @@ p {
   align-items: center;
   margin-left: 215px;
 } */
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
 .nav {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
+  margin-left: 93px;
+  line-height: 0;
 }
 
 .header-border {
   border-bottom: 1px solid var(--header-border-color);
 }
-.nav-main {
-  display: flex;
-  align-items: center;
-}
-.nav-studio {
+
+/* .nav-studio {
   margin-left: 93px;
   line-height: 0;
-}
+} */
 .nav-box {
   display: flex;
   padding-top: 32px;
@@ -296,7 +302,11 @@ p {
 .item .card {
   box-sizing: content-box;
   border: 1px solid var(--card-border-color);
+  border-top: 0;
   padding: 20px 24px;
+}
+.item img {
+  display: block;
 }
 .portfolio-link p {
   color: var(--second-color);
@@ -358,8 +368,7 @@ p {
   padding-top: 0;
 }
 .wawd h2 {
-  /* margin-top: 118px;
-  margin-bottom: 50px; */
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -440,11 +449,12 @@ p {
   /* display: inline-block; */
 /* margin-left: 215px; */
 
-.footor .logo {
+/* .footor .logo {
   margin-left: 40px;
-}
+} */
 /* address*/
 .address {
+  padding: 0;
   margin-left: auto;
 
   font-family: Roboto, sans-serif;
