@@ -6,6 +6,7 @@
   --button-second-backgund: #f5f4fa;
   --hero-bg: #2f303a;
   --header-border-color: #ececec;
+
   --card-border-color: #eeeeee;
 }
 body {
@@ -24,6 +25,7 @@ h6 {
   margin: 0;
   margin-bottom: 10px;
 }
+
 ul {
   margin: 0;
 }
@@ -87,6 +89,7 @@ p {
 
 /*NAVIGATION*/
 /* .nav-page { */
+
 .nav-main {
   display: flex;
   align-items: center;
@@ -301,6 +304,7 @@ p {
   border-top: 0;
   padding: 20px 24px;
 }
+
 .item img {
   display: block;
 }
@@ -363,6 +367,7 @@ p {
 .wawd-padding {
   padding-top: 0;
 }
+
 .wawd h2 {
   margin-bottom: 50px;
 
@@ -448,7 +453,9 @@ p {
 /* .footor .logo {
   margin-left: 40px;
 } */
+
 /* address*/
+
 .address {
   padding: 0;
   margin-left: auto;
