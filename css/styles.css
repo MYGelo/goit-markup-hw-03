@@ -196,7 +196,7 @@ p {
   color: var(--main-color);
   background-color: var(--primery-white-colorwhite);
 
-  font-family: sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
