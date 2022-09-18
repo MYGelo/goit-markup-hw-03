@@ -194,7 +194,7 @@ p {
   cursor: pointer;
 
   color: var(--main-color);
-  background-color: var(--primery-white-colorwhite);
+  background-color: var(--primery-white-color);
 
   font-family: inherit;
   font-weight: 500;
