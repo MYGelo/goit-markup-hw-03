@@ -483,7 +483,24 @@ p {
   color: var(--accent-color);
 }
 
-.address .item + .item {
+.address-footer {
+  padding: 0;
+  margin-left: auto;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+
+  list-style: none;
+}
+.address a:hover,
+.address a:focus {
+  color: var(--accent-color);
+}
+
+.address-footer .item + .item {
   margin-top: 10px;
 }
 .address-link {
