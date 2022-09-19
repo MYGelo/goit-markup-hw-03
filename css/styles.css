@@ -482,6 +482,10 @@ p {
 .address a:focus {
   color: var(--accent-color);
 }
+
+.address .item + .item {
+  margin-top: 10px;
+}
 .address-link {
   color: var(--primery-white-color);
   text-decoration: none;
@@ -489,4 +493,8 @@ p {
 .address-contact {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+  margin-bottom: 20px;
 }
